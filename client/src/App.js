@@ -37,9 +37,9 @@ class App extends React.Component {
       
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/sign_up" exact component={Register} />
-          <Route path="/sign_in" exact component={Signin} />
-          <ProtectedRoute path="/profile" exact component={Profile}/>
+          <Route path="/sign_up" component={Register} />
+          <Route path="/sign_in" component={Signin} />
+          <ProtectedRoute path="/profile" component={Profile}/>
           <Route component={FourZeroFour} />
         </Switch>
         </div>
