@@ -1,0 +1,14 @@
+form {
+  margin-top: 3rem;
+}
+
+.container {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+.weather p h1 h4 {
+	color:white;
+}
+
