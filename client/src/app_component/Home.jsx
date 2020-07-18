@@ -85,7 +85,7 @@ const override = css`
      this.hideLoader();
      this.timerID = setInterval(
       () => this.getWeather(this.state.lat, this.state.lon),
-      15000
+      5000
     );
 
  }
