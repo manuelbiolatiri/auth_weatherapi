@@ -56,7 +56,7 @@ const override = css`
   }
 
   getWeather = async (latitude, longitude) => {
-    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${WEATHER_API_KEY}`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=${WEATHER_API_KEY}`);
     const data = await api_call.json();
     console.log(data)
     this.setState({
