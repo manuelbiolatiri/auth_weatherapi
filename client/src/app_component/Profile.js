@@ -126,9 +126,6 @@ class Profile extends React.Component {
            <Link to="/">
           <p  className='f3 dim white underline pa3 pointer'>Home</p>
           </Link>
-          <Link to="/explore">
-          <p  className='f3 dim white underline pa3 pointer'>Explore</p>
-          </Link>
           
           <p  className='f3 dim white underline pa3 pointer' onClick={this.toggle}>Sign Out</p>
           

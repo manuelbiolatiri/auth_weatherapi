@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
     return (
       <div>
       <h3>404 - Not found</h3>
-        <a href="http://localhost:3000/" 
+        <a href="https://weatherbymanuel.herokuapp.com" 
         className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
         >Go to home</a>
       </div>
@@ -36,7 +36,7 @@ class App extends React.Component {
       <div className="App">
       
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" component={Home} />
           <Route path="/sign_up" component={Register} />
           <Route path="/sign_in" component={Signin} />
           <ProtectedRoute path="/profile" component={Profile}/>

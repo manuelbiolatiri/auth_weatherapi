@@ -14,7 +14,7 @@ const Form = (props) => {
               placeholder="City"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mt-2">
             <input
               type="text"
               name="country"
