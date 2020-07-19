@@ -55,7 +55,7 @@ class Signin extends React.Component {
     .then(response => response.json())
       .then((user) => {
         // console.log(user);
-        // console.log(user);
+        console.log(user.data);
         if(user.status === 'error') {
         this.setState({errorMessage: user.error});
         this.hideLoader();
