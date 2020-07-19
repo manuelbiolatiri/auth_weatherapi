@@ -115,7 +115,7 @@ const override = css`
       <h1 className="text-white py-3">{city}, {country}</h1>      
       <h1 className="py-2">{temperatureC} &deg;C <span className="slash">/</span> {temperatureF} &deg;F</h1>    
             <h5 className="py-4">
-              <img className="weather-icon" src={`http://openweathermap.org/img/w/${icon}.png`} alt="weather icon"/>
+              <img className="weather-icon" src={`https://openweathermap.org/img/w/${icon}.png`} alt="weather icon"/>
               </h5>
               <h4 className="py-3">
               <span>{description}</span>
